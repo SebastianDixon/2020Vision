@@ -17,6 +17,7 @@ def write_post():
         codes = post_data[0]
 
         codes = list(dict.fromkeys(codes))
+        
         print("POSTCODE(s):", codes)
 
 
