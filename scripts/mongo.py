@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import csv
 
 
-client = MongoClient("mongodb://user:1234@cluster0-shard-00-00.dircn.gcp.mongodb.net:27017,cluster0-shard-00-01.dircn.gcp.mongodb.net:27017,cluster0-shard-00-02.dircn.gcp.mongodb.net:27017/parcel?ssl=true&replicaSet=atlas-jcizbw-shard-0&authSource=admin&retryWrites=true&w=majority")
+client = MongoClient("my link")
 db = client["parcel"]
 
 
